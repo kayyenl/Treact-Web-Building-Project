@@ -96,7 +96,7 @@ nav {
     padding-right: 36px;
 }
 
-.nav__accountlink--purple {
+.purple__button {
     font-weight: 600;
     font-size: 14px;
     text-decoration: none;
@@ -145,8 +145,16 @@ nav {
     border-radius: 9999px;
     padding: 20px 172px 20px 32px;
     font-size: 100%;
+}
 
-    /* 1024 is where we must cut off. */
+.email__container {
+    position: relative;
+}
+
+.about__container--button {
+    position:absolute;
+    left: 56%;
+    transform: translateY(19%);
 }
 
 
@@ -168,11 +176,15 @@ nav {
 
 
 
-
+/* MEDIA QUERIES */
 
 @media (max-width:1280px) {
     h1 {
         font-size: 36px;
+    }
+
+    .about__container--button {
+        left: 52%;
     }
 
     p {
@@ -181,7 +193,7 @@ nav {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
 
     h1 {
         font-size: 30px;
