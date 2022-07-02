@@ -48,6 +48,7 @@ nav {
 
 .nav__logoword--treact {
     font-weight: 900;
+    font-size: 20px;
 }
 
 .nav__navlinks {
@@ -91,9 +92,10 @@ nav {
     padding: 12px 32px;
     background-color: #6415FF;
     border-radius: 9999px;
+    transition: all 450ms ease;
 }
 
-.nav__accountlink--purple {
-    
+.nav__accountlink--purple:hover {
+    background-color: #310093;
 }
 
