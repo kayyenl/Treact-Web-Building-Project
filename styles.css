@@ -16,27 +16,36 @@
     margin: 0 auto;
 }
 
-#nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
+.container {
+    padding: 0 32px;
 }
-
-
 
 
 
 /* NAVBAR */
 
-.nav__logoword--treact {
-    font-weight: 900;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vh;
 }
 
-.nav__logoword--figure {
-    width: 100%;
+.nav__logoword {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__logoword--logo {
+    height: 100%;
+    padding-right: 8px;
 }
 
 .nav__logoword--image {
-    width: 100%;
+    height: 100%;
+}
+
+.nav__logoword--treact {
+    font-weight: 900;
 }
