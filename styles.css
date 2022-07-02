@@ -141,10 +141,12 @@ nav {
 }
 
 .about__container--email {
-    width: 100%;
+    width: 90%;
     border-radius: 9999px;
-    padding: 20px 192px 20px 32px;
+    padding: 20px 172px 20px 32px;
     font-size: 100%;
+
+    /* 1024 is where we must cut off. */
 }
 
 
@@ -175,5 +177,34 @@ nav {
 
     p {
         font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .about__container--details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin-bottom: 10%;
+    }
+    
+    .about__container--figure {
+        width: 70%;
     }
 }
