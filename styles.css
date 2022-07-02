@@ -34,6 +34,13 @@ p {
     line-height: 1.5;
 }
 
+.text__small--grey {
+    font-size: 12px;
+    font-weight: 700;
+    color: #A0AEC0;
+    letter-spacing: 0.05em;
+}
+
 
 /* NAVBAR */
 
@@ -157,6 +164,24 @@ nav {
     transform: translateY(19%);
 }
 
+.about__container--textbrands {
+    margin-top: 80px;
+}
+
+.about__container--brandfigure {
+    width: 100%;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.about__container--brandimage {
+    opacity: 0.7;
+    width: 90%;
+}
+
+
+
 
 
 
@@ -218,5 +243,10 @@ nav {
     
     .about__container--figure {
         width: 70%;
+    }
+
+    .about__container--textbrand {
+        text-align: center;
+        font-size: 14px;
     }
 }
