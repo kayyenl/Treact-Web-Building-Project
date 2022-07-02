@@ -1,0 +1,42 @@
+
+/* GENERAL MATTERS */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.row {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+
+
+/* NAVBAR */
+
+.nav__logoword--treact {
+    font-weight: 900;
+}
+
+.nav__logoword--figure {
+    width: 100%;
+}
+
+.nav__logoword--image {
+    width: 100%;
+}
