@@ -32,7 +32,7 @@ nav {
 }
 
 .nav__logoword {
-    height: 50%;
+    height: 70%;
     display: flex;
     align-items: center;
 }
@@ -49,3 +49,51 @@ nav {
 .nav__logoword--treact {
     font-weight: 900;
 }
+
+.nav__navlinks {
+    display: flex;
+}
+
+.nav__sectionlink,
+.nav__accountlink {
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #243E43;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    transition: all 150ms ease;
+}
+
+.hover__underline:hover {
+    border-bottom-width: 4px;
+    color:#6415FF;
+}
+
+.nav__sectionlink {
+    margin-right: 36px;
+}
+
+.nav__accountlink {
+    margin-right: 24px;
+}
+
+.nav__sectionlinks {
+    padding-right: 36px;
+}
+
+.nav__accountlink--purple {
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 12px 32px;
+    background-color: #6415FF;
+    border-radius: 9999px;
+}
+
+.nav__accountlink--purple {
+    
+}
+
