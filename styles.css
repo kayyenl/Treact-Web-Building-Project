@@ -10,6 +10,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    padding: 32px;
+}
+
 .row {
     max-width: 1200px;
     width: 100%;
@@ -17,7 +21,7 @@
 }
 
 .container {
-    padding: 0 32px;
+    padding: 96px 0;
 }
 
 .purple__text {
@@ -49,6 +53,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 4vh;
+}
+
+.nav__container {
+    padding: 0 32px;
 }
 
 .nav__logoword {
@@ -121,10 +129,6 @@ nav {
 
 /* ABOUT */
 
-#about {
-    padding: 96px 0;
-}
-
 .about__container {
     width: 100%;
     display: flex;
@@ -180,6 +184,46 @@ nav {
     width: 90%;
 }
 
+/* FEATURES */
+
+.features__container {
+    padding: 80px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__textbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.features__smallheader--purple {
+    color: #6415FF;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.stubborn__h2 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.features__text--para {
+    width: 60%;
+    text-align: center;
+    color: #7C8BA1;
+}
 
 
 
