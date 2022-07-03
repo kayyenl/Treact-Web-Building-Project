@@ -303,6 +303,64 @@ nav {
     margin-top: 32px;
 }
 
+/* STEPS */
+
+.steps__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps__figure {
+    width: 50%;
+}
+
+.steps__image {
+    width: 100%;
+}
+
+.steps__textbox {
+    padding-left: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.steps__smallheader {
+    text-align: left;
+}
+
+.steps__pointerboxes {
+    padding-top: 8px;
+}
+
+.steps__pointerbox {
+    display: flex;
+    padding-top: 28px;
+}
+
+.steps__numbers {
+    font-size: 36px;
+    color: #CBD5E0;
+    font-weight: 600;
+}
+
+.steps__smalltextbox {
+    width: 60%;
+    padding-left: 24px;
+}
+
+.steps__smalltextbox--header {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.steps__smalltextbox--para {
+    padding-top: 12px;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+    opacity: 0.8;
+}
 
 
 
