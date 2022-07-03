@@ -225,6 +225,40 @@ nav {
     color: #7C8BA1;
 }
 
+.features__features {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.features__feature--container {
+    width: calc(100%/3);
+    margin: 0 16px;
+    padding: 32px 8px;
+    display: flex;
+}
+
+.features__feature--textbox {
+    padding: 8px 0 0 16px;
+}
+
+.features__feature--figure {
+    border-width: 1px;
+    padding: 20px;
+    color: black;
+}
+
+.stubborn__h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.features__feature--para {
+    padding-top: 16px;
+    font-weight: 500px;
+    line-height: 2;
+}
+
 
 
 
