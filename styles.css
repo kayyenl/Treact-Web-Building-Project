@@ -243,19 +243,22 @@ nav {
 }
 
 .features__feature--figure {
-    border-width: 1px;
+    border: solid #e5e7eb 1px;
+    border-radius: 9999px;
     padding: 20px;
     color: black;
+    flex-shrink: ;
 }
 
 .stubborn__h3 {
     font-size: 24px;
     font-weight: 700;
+    padding: 16px 0 0;
 }
 
 .features__feature--para {
-    padding-top: 16px;
-    font-weight: 500px;
+    border-top: 16px;
+    font-weight: 500;
     line-height: 2;
 }
 
