@@ -415,13 +415,16 @@ nav {
     border-top: 0px;
     position: relative; 
 }
+.business__border {
+    border-top: 2px solid rgb(218, 218, 218);
+}
 
 .topbox__gradient {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    transform: translateY(-6px);
+    transform: translateY(-2px);
     height: 0.5rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
@@ -442,6 +445,7 @@ nav {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
+
 
 .topbox__price {
     width: 100%;
@@ -478,6 +482,16 @@ nav {
 
 .business__blue {
     background-color: rgba(85, 0, 255, 0);
+}
+
+.pricing__button {
+    border: 0px;
+    padding: 16px 48px;
+    transition: all 450ms auto;
+}
+
+.pricing__button:hover .pricing__button {
+    box-shadow: 1px 1px rgba(85, 0, 255, 0);
 }
 
 
