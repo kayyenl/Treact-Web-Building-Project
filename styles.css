@@ -596,6 +596,12 @@ footer {
     flex-wrap: wrap;
 }
 
+.long__margin {
+    padding-bottom: 48px;
+    width: 90%;
+    border-bottom: 1px solid grey;
+}
+
 .footer__onecolumn {
     width: 20%;
     display: flex;
@@ -616,6 +622,12 @@ footer {
     text-align: left;
     font-size: 14px;
     padding-bottom: 12px;
+}
+
+.footer__logotext {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
