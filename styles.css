@@ -365,7 +365,98 @@ nav {
 /* PRICING */
 
 
+.pricing__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.pricing__textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.steps__header {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.pricing__para {
+    text-align: center;
+    margin-top: 16px;
+    width: 55%;
+}
+
+.pricing__plans {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pricing__plan {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing__plan--topbox {
+    width: 95%;
+    padding: 28px 0;
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 5px;
+    border-top: 0px;
+    position: relative; 
+}
+
+.topbox__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-6px);
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.red__gradient {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.turq__gradient {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.topbox__header {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.topbox__price {
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.pricing__smallheader {
+    font-weight: 700;
+    color: #868686;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-bottom: 8px;
+}
 
 
 
