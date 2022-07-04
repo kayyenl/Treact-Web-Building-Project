@@ -395,6 +395,7 @@ nav {
 .pricing__plans {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
 }
 
@@ -458,7 +459,7 @@ nav {
     padding-bottom: 8px;
 }
 
-.pricing__plan--midbox {
+.pricing__box--arrangements {
     width: 95%;
     padding: 32px 0;
     display: flex;
@@ -466,12 +467,17 @@ nav {
     align-items: center;
     justify-content: center;
     border: 2px solid rgb(218, 218, 218);
+    border-radius: 5px;
 }
 
 .midbox__perks {
     text-align: center;
     padding-top: 20px;
     color:#636567;
+}
+
+.business__blue {
+    background-color: rgba(85, 0, 255, 0);
 }
 
 
@@ -541,10 +547,22 @@ nav {
         width: 40%;
     }
 
-    .stubborn__h4 {
+    .stubborn__h4,
+    .steps__header {
         font-size: 36px;
     }
 
+}
+
+@media (max-width: 1024px) {
+    .pricing__plan {
+        width: 60%;
+        margin-bottom: 48px;
+    }
+
+    .pricing__para {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -559,6 +577,7 @@ nav {
     .features__feature--textbox {
         text-align: center;
     }
+    
 
     .quality__container {
         display: flex;
