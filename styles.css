@@ -166,7 +166,7 @@ nav {
 .about__container--button {
     position:absolute;
     left: 56%;
-    transform: translateY(19%);
+    transform: translateY(23%);
 }
 
 .about__container--textbrands {
@@ -622,15 +622,25 @@ footer {
     text-align: left;
 }
 
+.hover__underline--white:hover  {
+    border-bottom-width: 4px;
+    color: white;
+}
+
 .footer__onecolumn--pointers {
     width: 70%;
     text-align: left;
     font-size: 14px;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
+    padding: 2px;
+     border-bottom-width: 0px;
+    border-bottom-style: solid;
+    transition: all 150ms ease;
 }
 
 .footer__logotext {
     margin-top: 32px;
+    padding: 0 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -756,6 +766,11 @@ footer {
 }
 
 @media (max-width: 1024px) {
+
+    .nav__navlinks {
+        display: none;
+    }
+    
     .pricing__plan {
         width: 60%;
         margin-bottom: 48px;
