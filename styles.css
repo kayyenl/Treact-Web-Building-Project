@@ -521,7 +521,8 @@ nav {
     width:  100%;
     background-color: #6415FF;
     padding: 96px 32px;
-    border-radius: 50px;;
+    border-radius: 50px;
+    box-shadow: 0px 5px 16px rgb(65, 64, 64);
 }
 
 .stubborn__30px {
@@ -552,6 +553,8 @@ nav {
     box-shadow: 0px 5px 10px rgb(65, 64, 64);
     cursor: not-allowed;
 }
+
+/* FOOTER */
 
 
 
