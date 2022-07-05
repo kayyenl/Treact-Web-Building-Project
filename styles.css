@@ -350,6 +350,8 @@ nav {
     margin: 0 16px;
     padding: 32px 8px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .features__feature--textbox {
@@ -368,6 +370,7 @@ nav {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 16px;
+    text-align: center;
 }
 
 .features__feature--para {
@@ -929,7 +932,10 @@ footer {
     .features__feature--textbox {
         text-align: center;
     }
-    
+
+    .features__feature--textbox {
+        padding: 8px 0 0 0px;
+    }
 
     .quality__container {
         display: flex;
@@ -1021,6 +1027,9 @@ footer {
     .footer__copyright--message {
         margin-bottom: 24px;
     }
+
+    .mobile__nav.is-active {
+        height: 70vh;
 
 
 }
