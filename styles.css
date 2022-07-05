@@ -164,6 +164,7 @@ nav {
 
 .mobile__nav {
     display: none;
+    transform: translateX(0%);
 }
 
 .mobile__nav.is-active {
@@ -178,8 +179,35 @@ nav {
     border: 1px solid rgb(208, 208, 208);
     box-shadow: 3px 3px 16px rgb(163, 163, 163);
     background-color: white;
+    animation: bounce-in 600ms;
 }
 
+
+@keyframes bounce-in {
+    0% {
+        transform: translateX(150%);
+    }
+
+    40% {
+        transform: translateX(-5%);
+    }
+
+    55% {
+        transform: translateX(8%);
+    }
+
+    70% {
+        transform: translateX(-2%);
+    }
+
+    85% {
+        transform: translateX(4%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
 
 
 /* ABOUT */
