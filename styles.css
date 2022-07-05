@@ -128,6 +128,14 @@ nav {
     background-color: #310093;
 }
 
+.hamburger {
+    display: block;
+    width: 35px;
+    cursor: pointer;
+    height: 35px;
+    display: none;
+}
+
 /* ABOUT */
 
 .about__container {
@@ -770,7 +778,7 @@ footer {
     .nav__navlinks {
         display: none;
     }
-    
+
     .pricing__plan {
         width: 60%;
         margin-bottom: 48px;
