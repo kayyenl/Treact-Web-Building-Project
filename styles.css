@@ -929,6 +929,11 @@ footer {
         align-items: center;
     }
     
+    .about__container--email {
+        font-size: 14px;
+        text-align: center;
+    }
+
     .features__feature--textbox {
         text-align: center;
     }
