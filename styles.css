@@ -136,6 +136,7 @@ nav {
     height: 35px;
     border: none;
     background: none;
+    z-index: 5;
 }
 
 .bar, .hamburger:after, .hamburger:before {
@@ -160,6 +161,26 @@ nav {
 .hamburger.is-active .bar {
     opacity: 0;
 }
+
+.mobile__nav {
+    display: none;
+}
+
+.mobile__nav.is-active {
+    position: fixed;
+    top: 1%;
+    left: 1.5%;
+    width: 97%;
+    height: 30vh;
+    z-index: 4;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgb(208, 208, 208);
+    box-shadow: 3px 3px 16px rgb(163, 163, 163);
+    background-color: white;
+}
+
+
 
 /* ABOUT */
 
