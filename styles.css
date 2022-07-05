@@ -149,8 +149,16 @@ nav {
     border-radius: 4px;
 }
 
-.hamburger.is-active, .hamburger:after {
+.hamburger.is-active:before {
+    transform: rotate(-45deg) translate(-8px, 9px);
+}
 
+.hamburger.is-active:after {
+    transform: rotate(45deg) translate(-7px, -7px);
+}
+
+.hamburger.is-active .bar {
+    opacity: 0;
 }
 
 /* ABOUT */

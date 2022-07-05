@@ -1,7 +1,6 @@
-function openMenu() {
-    document.body.classList += " menu--open";
-}
-
-function closeMenu() {
-    document.body.classList.remove('menu--open');
+window.onload = function() {
+    const menu_btn = document.querySelector('.hamburger');
+    menu_btn.addEventListener('click', function () {
+        menu_btn.classList.toggle('is-active');
+    });
 }
