@@ -952,7 +952,10 @@ footer {
     .pricing__plan {
         width: 80%;
     }
-    
+
+    .pricing__button {
+        margin-right: 0px;
+    }
     
     .quality__textbox {
         width: 80%;
@@ -1060,7 +1063,7 @@ footer {
     }
 
     .footer__onecolumn {
-        width: 25%;
+        width: 40%;
     }
 
     .footer__onecolumn--header {
