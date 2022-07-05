@@ -14,6 +14,7 @@ body {
     padding: 32px 32px 0 32px;
 }
 
+
 .row {
     max-width: 1200px;
     width: 100%;
@@ -26,6 +27,10 @@ body {
 
 .purple__text {
     color: #6415FF;
+}
+
+.not__allowed {
+    cursor: not-allowed;
 }
 
 h1 {
@@ -174,12 +179,35 @@ nav {
     width: 97%;
     height: 30vh;
     z-index: 4;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 0;
     border-radius: 10px;
     border: 1px solid rgb(208, 208, 208);
     box-shadow: 3px 3px 16px rgb(163, 163, 163);
     background-color: white;
-    animation: bounce-in 600ms;
+    animation: bounce-in 700ms;
+}
+
+.mobile__links {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 18px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-size:  18px;
+    transition: all 450ms ease;
+}
+
+.mobile__links:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.white__word {
+    color: white;
 }
 
 
