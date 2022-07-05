@@ -129,11 +129,28 @@ nav {
 }
 
 .hamburger {
-    display: block;
+    position: relative;
+    display: none;
     width: 35px;
     cursor: pointer;
     height: 35px;
-    display: none;
+    border: none;
+    background: none;
+}
+
+.bar, .hamburger:after, .hamburger:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #6415FF;
+    transition: 450ms ease;
+    margin: 6px 0px;
+    border-radius: 4px;
+}
+
+.hamburger.is-active, .hamburger:after {
+
 }
 
 /* ABOUT */
@@ -771,12 +788,25 @@ footer {
         font-size: 36px;
     }
 
+    .about__container--email {
+        width: 100%; 
+    }
+
+    .about__container--button {
+        left: 60%;
+        transform: translateY(26%);
+    }
+
 }
 
 @media (max-width: 1024px) {
 
     .nav__navlinks {
         display: none;
+    }
+
+    .hamburger {
+        display: block;
     }
 
     .pricing__plan {
@@ -907,6 +937,7 @@ footer {
         margin-bottom: 24px;
     }
 
+
 }
 
 @media (max-width: 640px) {
@@ -937,6 +968,17 @@ footer {
 
     .smallrez__size {
         width: 40%;
+    }
+
+    .about__container--email {
+        padding-right: 32px;
+    }
+
+    .about__container--button {
+        position:relative;
+        width: 100%;
+        left: 0;
+        margin-top: 24px;
     }
 
 
